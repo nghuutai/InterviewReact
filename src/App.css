@@ -1,0 +1,131 @@
+
+.loginbox {
+  /* width: 370px;
+  height: 550px;
+  background: #4A90E2;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  box-shadow: 0 0 8px 0 darkslategrey; */
+  margin: 70px 0 30px 0;
+  width: 370px;
+  height: 550px;
+  background: #4A90E2;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 70px 30px;
+  box-shadow: 0 0 8px 0 rgb(7, 19, 19);
+}
+
+/* .loginbox:after{
+  content: '';
+  position: relative;
+  left: 50%;
+  top: 40%; 
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  transform: skewX(-50deg) scale(2);
+}  */
+
+h1{
+  margin: 0 0 50px 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.input-checkbox
+{
+  zoom: 1.3;
+  border-radius:4px;
+  box-shadow:0 0 7px 0 #aaa;
+}
+
+.input
+{
+  width:100%;
+  height: 40px;
+  border:2px solid #aaa;
+  border-radius:4px;
+  margin: 5px 0 5px 0;
+  outline:none;
+  padding:8px;
+  box-sizing:border-box;
+  transition:.3s;
+  box-shadow:0 0 8px 0 #aaa;
+  font-size: medium;
+}
+.input-invalid
+{
+  width:100%;
+  height: 40px;
+  border:2px solid red;
+  border-radius:4px;
+  margin: 5px 0 5px 0;
+  outline:none;
+  padding:8px;
+  box-sizing:border-box;
+  transition:.3s;
+  box-shadow:0 0 8px 0 red;
+  font-size: medium;
+}
+
+.btn-login
+{
+  width: 100%;
+  border: none;
+  outline: none;
+  height: 40px;
+  background: rgb(25, 95, 175);
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  margin: 0 0 40px 0;
+  cursor: pointer;
+}
+
+.small{
+  color: red;
+  margin-left: 5px;
+}
+
+.form-input
+{
+  margin: 0 0 35px 0;
+}
+
+.alert-successfull {
+  padding: 20px;
+  background-color: #90f8bf; /* Red */
+  color: black;
+  margin-bottom: 20px 0 15px 0;
+}
+
+.alert-faile {
+  padding: 20px;
+  background-color: #f44336; 
+  color: black;
+  margin-bottom: 20px 0 15px 0;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}

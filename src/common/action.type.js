@@ -1,0 +1,2 @@
+export const LOGIN = "LOGIN";
+export const EXIT_NOTIFICATION = "EXIT_NOTIFICATION"
